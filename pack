@@ -1,0 +1,132 @@
+#dev-texlive/texlive-latexextra-2021
+#dev-texlive/texlive-pictures-2021
+
+
+######## Docker
+
+sys-fs/lvm2 lvm thin
+
+app-containers/docker container-init seccomp apparmor btrfs device-mapper overlay
+
+app-containers/containerd btrfs apparmor device-mapper
+
+
+app-containers/runc apparmor
+
+
+
+dev-qt/qtpositioning geoclue
+
+
+dev-qt/qtbase egl
+
+dev-qt/qtgui eglfs
+
+
+dev-libs/libpcre2 pcre32
+dev-libs/boost context
+
+>=net-libs/zeromq-4.3.4-r2 -drafts
+
+
+
+
+
+dev-lua/lpeg lua_targets_luajit
+dev-lua/mpack lua_targets_luajit
+## Firefox
+media-libs/libvpx postproc 
+
+
+
+## PyQt5
+dev-python/pillow webp
+dev-python/PyQt5 declarative designer -examples -gles2-only -help location positioning sensors -serialport -speech sql -testlib webchannel websockets x11extras xmlpattern
+
+
+ #
+dev-lang/python sqlite -bluetooth tk
+dev-db/sqlite -icu
+net-wireless/bluez -obex
+dev-python/numpy lapack
+
+media-plugins/alsa-plugins pulseaudio
+media-libs/libmediaart -gtk
+app-admin/conky xinerama curl hddtemp mpd weather-metar pulseaudio nvidia
+x11-drivers/nvidia-drivers static-libs
+
+sci-visualization/gnuplot latex bitmap  lua
+
+#NextCloud
+app-crypt/pinentry gnome-keyring
+dev-libs/qtkeychain gnome-keyring
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+sys-libs/zlib minizip
+pp-crypt/pinentry gnome-keyring
+
+virtual/mpi cxx threads
+sys-cluster/openmpi cxx
+
+dev-libs/boost mpi numpy static-libs tools python 
+sys-cluster/openmpi cuda
+x11-drivers/nvidia-drivers uvm
+app-portage/layman sync-plugin-portage git
+
+
+dev-libs/libdbusmenu gtk3
+x11-terms/rxvt-unicode 256-color perl unicode mousewheel xft font-styles fading-colors
+
+www-client/w3m imlib 
+app-editors/emacs imagemagick json soun xft xwidgets toolkit-scroll-bars dynamic-loading
+x11-misc/xbindkeys tk
+
+
+media-gfx/gimp postscript vector-icons xpm
+net-misc/aria2 bittorrent scripts ssh 
+x11-misc/redshift geoclue
+media-video/obs-studio imagemagick lua nvenc -python v4l vlc
+
+
+net-libs/zeromq drafts
+dev-python/QtPy printsupport
+dev-qt/qtmultimedia widgets
+
+
+sys-apps/qingy emacs
+sci-mathematics/octave gnuplot postscript
+media-gfx/inkscape postscript imagemagick
+
+
+media-video/ffmpeg bluray nvenc  fontconfig libass cpudetection pulseaudio v4l vaapi x265 openssl opus
+
+
+### gtkgreet
+gui-wm/wayfire gles -system-wlroots
+x11-libs/gtk+ wayland
+media-libs/mesa wayland
+x11-base/xorg-server wayland
+
+
+#gui-libs/wlroots icccm -seatd x11-backend 
+
+## GCC
+
+sys-kernel/gentoo-sources build experimental 
+#sys-devel/gcc lto
+
+
+x11-libs/wxGTK gstreamer
+x11-misc/polybar curl -doc -i3wm -ipc mpd network pulseaudio
+ 
+dev-libs/boehm-gc cxx
+media-gfx/asymptote emacs python curl -latex
+media-libs/freetype harfbuzz
+
+
+#Rstudio
+dev-java/validation-api source
+
+
+
+dev-libs/qtkeychain keyring
