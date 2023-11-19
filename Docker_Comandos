@@ -1,0 +1,6 @@
+### Rodar o docker 
+docker run -p 5000:5000/tcp pychemist/m2cf_web_backend
+
+
+## rodar o FRONTEND 
+docker run -p 9000:9000/tcp pychemist/m2cf_web_frontend
